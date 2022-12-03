@@ -6,6 +6,9 @@
     ],
     "type": "dark",
     "semanticTokenColors": {
+        "*.declaration": {
+            "fontStyle": "italic"
+        },
         "parameter.declaration": {
             "foreground": "#e0af68"
         },
@@ -13,23 +16,37 @@
             "foreground": "#d9d4cd"
         },
         "property.declaration": {
-            "foreground": "#73daca"
+            "foreground": "#7dcfff"
         },
-        "property.defaultLibrary": {
-            "foreground": "#2ac3de"
-        },
+        "property.defaultLibrary": {},
         "*.defaultLibrary": {
-            "foreground": "#2ac3de"
+            "fontStyle": ""
         },
         "variable.defaultLibrary": {
-            "foreground": "#2ac3de"
+            "foreground": "#0db9d7",
         },
-        "variable.declaration": {
-            "foreground": "#bb9af7"
+        "function.defaultLibrary": {
+            "foreground": "#0db9d7",
         },
-        "variable": {
-            "foreground": "#c0caf5"
-        }
+        "macro.defaultLibrary": {
+            "foreground": "#0db9d7"
+        },
+        "variable.mutable": {
+            "fontStyle": "underline"
+        },
+        "operator": {
+            "fontStyle": "",
+        },
+        "enumMember": {
+            "foreground": "#f7768e",
+        },
+        "selfParameter": "#f7768e",
+        "builtinType": "#73daca",
+        "type": "#73daca",
+        "typeAlias": "#73daca",
+        "struct": "#73daca",
+        "class": "#73daca",
+        "interface": "#73daca"
     },
     "semanticClass": "tokyo-night",
     "colors": {
@@ -826,7 +843,6 @@
                 "support.constant.json",
                 "entity.name.namespace",
                 "meta.import.qualifier",
-                "variable.other.constant.object"
             ],
             "settings": {
                 "foreground": "#0db9d7"
@@ -1521,18 +1537,13 @@
             }
         },
         {
-            "name": "Class Name",
-            "scope": "entity.name.type",
-            "settings": {
-                "foreground": "#73daca"
-            }
-        },
-        {
-            "name": "Rust Option",
-            "scope": "entity.name.type.option",
+            "name": "Rust Option, Result",
+            "scope": [
+                "entity.name.type.option",
+                "entity.name.type.result"
+            ],
             "settings": {
                 "foreground": "#f7768e",
-                "fontStyle": "underline"
             }
         },
         {
@@ -1540,6 +1551,13 @@
             "scope": "keyword.control",
             "settings": {
                 "fontStyle": "italic",
+            }
+        },
+        {
+            "name": "Types",
+            "scope": "support.type",
+            "settings": {
+                "foreground": "#73daca",
             }
         },
         {
