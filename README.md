@@ -1,4 +1,5 @@
-## Tokyo Night Theme
+# [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+
 But
 
 better semantic highlighting for
