@@ -31,6 +31,9 @@
         "macro.defaultLibrary": {
             "foreground": "#0db9d7"
         },
+        "variable.declaration.mutable": {
+            "fontStyle": "italic underline"
+        },
         "variable.mutable": {
             "fontStyle": "underline"
         },
@@ -383,8 +386,8 @@
             "scope": [
                 "comment",
                 "meta.var.expr storage.type",
-                "keyword.control.flow",
-                "keyword.control.return",
+                // "keyword.control.flow",
+                // "keyword.control.return",
                 "meta.directive.vue punctuation.separator.key-value.html",
                 "meta.directive.vue entity.other.attribute-name.html",
                 "tag.decorator.js entity.name.tag.js",
@@ -522,7 +525,8 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#9d7cd8"
+                // "foreground": "#9d7cd8"
+                "foreground": "#bb9af7"
             }
         },
         {
@@ -1544,13 +1548,6 @@
             ],
             "settings": {
                 "foreground": "#f7768e",
-            }
-        },
-        {
-            "name": "Control Keywords",
-            "scope": "keyword.control",
-            "settings": {
-                "fontStyle": "italic",
             }
         },
         {
