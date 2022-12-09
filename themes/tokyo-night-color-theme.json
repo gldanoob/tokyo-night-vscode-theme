@@ -175,6 +175,7 @@
         "editorWhitespace.foreground": "#363b54",
         "editorMarkerNavigation.background": "#16161e",
         "editorHoverWidget.background": "#16161e",
+
         "editorHoverWidget.border": "#101014",
         "editorBracketMatch.background": "#16161e",
         "editorBracketMatch.border": "#42465d", //"#363b54",
