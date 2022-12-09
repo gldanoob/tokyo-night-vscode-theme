@@ -101,6 +101,7 @@
         "dropdown.listBackground": "#14141b",
         "activityBar.background": "#16161e",
         "activityBar.foreground": "#bdc7f0",
+        test
         //"activityBar.activeBorder": "#3b3e52",
         //"activityBar.activeBackground": "#101014",
         "activityBar.inactiveForeground": "#787c99",
@@ -149,7 +150,6 @@
         "editorBracketPairGuide.activeBackground2": "#2ac3de",
         "editorBracketPairGuide.activeBackground3": "#73daca",
         "editorBracketPairGuide.activeBackground4": "#ff9e64",
-        
         "editorBracketPairGuide.activeBackground5": "#f7768e",
         "editorBracketPairGuide.activeBackground6": "#bb9af7",
         "selection.background": "#515c7e40",
