@@ -175,7 +175,6 @@
         "editorWhitespace.foreground": "#363b54",
         "editorMarkerNavigation.background": "#16161e",
         "editorHoverWidget.background": "#16161e",
-
         "editorHoverWidget.border": "#101014",
         "editorBracketMatch.background": "#16161e",
         "editorBracketMatch.border": "#42465d", //"#363b54",
@@ -382,7 +381,8 @@
         "menu.selectionForeground": "#a9b1d6",
         "menu.selectionBackground": "#1e202e",
         "menu.separatorBackground": "#101014",
-        "menu.border": "#101014"
+        "menu.border": "#101014",
+        "editor.snippetTabstopHighlightBackground": "#515c7e10"
     },
     "tokenColors": [
         {
