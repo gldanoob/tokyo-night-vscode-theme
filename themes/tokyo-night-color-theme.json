@@ -46,13 +46,15 @@
         "enumMember": {
             "foreground": "#f7768e",
         },
+        "selfKeyword": "#f7768e",
         "selfParameter": "#f7768e",
         "builtinType": "#73daca",
         "type": "#73daca",
         "typeAlias": "#73daca",
         "struct": "#73daca",
         "class": "#73daca",
-        "interface": "#73daca"
+        "interface": "#73daca",
+        "enum": "#73daca",
     },
     "semanticClass": "tokyo-night",
     "colors": {
