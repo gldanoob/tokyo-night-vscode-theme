@@ -1,9 +1,9 @@
 {
-    "name": "tokyo-night",
-    "displayName": "Tokyo Night",
-    "description": "A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
+    "name": "better-tokyo-night",
+    "displayName": "Better Tokyo Night",
+    "description": "Tokyo Night but better",
     "version": "0.9.4",
-    "publisher": "enkia",
+    "publisher": "gldanoob",
     "license": "MIT",
     "keywords": [
         "theme",
@@ -14,13 +14,13 @@
         "clean"
     ],
     "icon": "icon.png",
-    "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
+    "homepage": "https://github.com/gldanoob/tokyo-night-vscode-theme",
     "repository": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme",
+        "url": "https://github.com/gldanoob/tokyo-night-vscode-theme",
         "type": "git"
     },
     "bugs": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme/issues"
+        "url": "https://github.com/gldanoob/tokyo-night-vscode-theme/issues"
     },
     "galleryBanner": {
         "color": "#1f2335",
@@ -39,21 +39,14 @@
                 "label": "Tokyo Night",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tokyo-night-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Storm",
-                "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-storm-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Light",
-                "uiTheme": "vs",
-                "path": "./themes/tokyo-night-light-color-theme.json"
             }
         ]
     },
     "scripts": {
         "package": "vsce package",
         "publish": "vsce publish"
+    },
+    "dependencies": {
+        "@vscode/vsce": "^2.17.0"
     }
 }
