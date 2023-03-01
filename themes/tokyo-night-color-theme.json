@@ -614,7 +614,8 @@
                 "meta.import keyword.other"
             ],
             "settings": {
-                "foreground": "#7dcfff"
+                "foreground": "#bb9af7",
+                "fontStyle": "italic"
             }
         },
         {
