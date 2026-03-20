@@ -15,6 +15,9 @@
         "parameter": {
             "foreground": "#d9d4cd"
         },
+        "parameter.selfParameter": {
+            "foreground": "#f7768e"
+        },
         "property.declaration": {
             "foreground": "#7dcfff"
         },
@@ -27,6 +30,9 @@
         },
         "variable.defaultLibrary": {
             "foreground": "#0db9d7",
+        },
+        "variable.readonly": {
+            "foreground": "#e0af68"
         },
         "function.defaultLibrary": {
             "foreground": "#0db9d7",
