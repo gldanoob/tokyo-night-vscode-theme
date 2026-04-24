@@ -39,6 +39,11 @@
                 "label": "Tokyo Night",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tokyo-night-color-theme.json"
+            },
+            {
+                "label": "Tokyo Night Blackout",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tokyo-night-blackout-color-theme.json"
             }
         ]
     },
